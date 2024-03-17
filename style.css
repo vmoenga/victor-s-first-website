@@ -266,7 +266,7 @@ section {
 #about {
   position: relative;
 }
-
+t
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -298,7 +298,7 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(0, 0, 0) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
