@@ -1,35 +1,66 @@
-Victor Moenga's Portfolio
-Welcome to Victor Moenga's portfolio website! This project showcases Victor Moenga's skills, experience, and projects as a frontend developer.
+# My Portfolio
 
-Table of Contents
-Introduction
-Features
-Usage
-Installation
-Credits
-License
-Introduction
-Victor Moenga's Portfolio is a personal website designed to present Victor's skills, projects, and contact information to potential employers, collaborators, and clients. The website features a clean and modern design, making it easy to navigate and explore Victor's work.
+This is a portfolio website showcasing the work and experience of Victor Moenga, a frontend developer.
 
-Features
-About Me: Learn more about Victor Moenga's background, skills, and professional interests.
-Experience: Explore Victor's experience in frontend development, including his proficiency in HTML, CSS, JavaScript, and Git.
-Projects: Browse through Victor's recent projects, with links to GitHub repositories for further exploration.
-Contact: Get in touch with Victor Moenga via email or LinkedIn.
-Usage
-To view Victor Moenga's portfolio website, simply open the index.html file in any web browser. You can navigate through the different sections using the navigation menu at the top of the page or by scrolling. Click on the buttons provided to download Victor's CV or access his contact information.
+## Table of Contents
+1. [Description](#description)
+2. [Features](#features)
+3. [Usage](#usage)
+4. [Dependencies](#dependencies)
+5. [Installation](#installation)
+6. [Configuration](#configuration)
+7. [Credits](#credits)
+8. [License](#license)
 
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/your-repository.git
-Navigate to the project directory:
-bash
-Copy code
-cd your-repository
-Credits
-Images: Images used in this project are sourced from Pexels and Icons8.
-Fonts: The project uses the Poppins font from Google Fonts.
-License
-This project is licensed under the MIT License.
+## Description
+This project is a personal portfolio website built with HTML, CSS, and JavaScript. It includes sections for about me, experience, projects, and contact information.
+
+## Features
+- Responsive design: The website is designed to be fully responsive and accessible across various devices and screen sizes.
+- Smooth scrolling: The navigation menu allows users to smoothly scroll to different sections of the website.
+- Hamburger menu: On smaller screens, the navigation menu is replaced with a hamburger menu for better user experience.
+- Contact form: Users can easily get in touch with Victor Moenga via the contact section, which includes links to email and LinkedIn.
+
+## Usage
+To use this portfolio website, simply open the `index.html` file in a web browser. You can navigate through the different sections using the navigation menu or by scrolling. Clicking on the buttons in the "Contact Me" section will redirect you to the respective contact platforms.
+
+## Dependencies
+This project does not have any external dependencies.
+
+## Installation
+1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+2. Navigate to the project directory: `cd your-repository`
+
+## Configuration
+No configuration is required for this project.
+
+## Credits
+- Images: Images used in this project are sourced from [Pexels](https://www.pexels.com/) and [Icons8](https://icons8.com/).
+- Fonts: The project uses the Poppins font from Google Fonts.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Media Queries CSS
+
+```css
+@media screen and (max-width: 1400px) {
+    /* Media queries content */
+}
+
+@media screen and (max-width: 1200px) {
+    /* Media queries content */
+}
+
+@media screen and (max-width: 600px) {
+    /* Media queries content */
+}
+function toggleMenu() {
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+}
+
