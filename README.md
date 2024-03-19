@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is a portfolio website showcasing the work and experience of Victor Moenga, a frontend developer.
+This is my portfolio website showcasing my work and experience 
 
 ## Table of Contents
 1. [Description](#description)
